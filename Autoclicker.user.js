@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LSS Easter Egg Clicker
 // @namespace    www.leitstellenspiel.de
-// @version      1.2
+// @version      1.3
 // @description  Automatically click the Easter Egg link when an Easter Egg is detected
 // @author       Afilia
 // @match        https://www.leitstellenspiel.de/missions/*
