@@ -63,7 +63,7 @@
         } else if (imageSrc.includes('santa_item')) {
             // For Christmas, automatically click the Easter Egg link
             easterEggLink.click();
-        } else if (imageSrc.includes('football_item')) {
+        } else if (imageSrc.includes('football')) {
             // For Football, automatically click the Easter Egg Link
         }
     }
