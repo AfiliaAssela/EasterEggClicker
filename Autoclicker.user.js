@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LSS Easter Egg Clicker
 // @namespace    www.leitstellenspiel.de
-// @version      1.1
+// @version      1.2
 // @description  Automatically click the Easter Egg link when an Easter Egg is detected
 // @author       Afilia
 // @match        https://www.leitstellenspiel.de/missions/*
@@ -63,6 +63,8 @@
         } else if (imageSrc.includes('santa_item')) {
             // For Christmas, automatically click the Easter Egg link
             easterEggLink.click();
+        } else if (imageSrc.includes('football_item')) {
+            // For Football, automatically click the Easter Egg Link
         }
     }
 })();
