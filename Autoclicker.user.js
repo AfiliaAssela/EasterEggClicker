@@ -69,6 +69,9 @@
         } else if (imageSrc.includes('summer_item')) {
             // For Flowers, automatically click the Easter Egg Link
             easterEggLink.click();
+        } else if (imageSrc.includes('heart')) {
+            // For Hearts, automatically click the Easter Egg Link
+            easterEggLink.click();
         }
     }
 })();
