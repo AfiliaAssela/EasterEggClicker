@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LSS Easter Egg Clicker
 // @namespace    www.leitstellenspiel.de
-// @version      1.4
+// @version      1.6
 // @description  Automatically click the Easter Egg link when an Easter Egg is detected
 // @author       Afilia
 // @match        https://www.leitstellenspiel.de/missions/*
@@ -57,8 +57,8 @@
         if (imageSrc.includes('pumpkin')) {
             // For Pumpkin, automatically click the Easter Egg link
             easterEggLink.click();
-        } else if (imageSrc.includes('Easter')) {
-            // For Easter, automatically click the Easter Egg link
+        } else if (imageSrc.includes('osterei')) {
+            // For Osterei, automatically click the Easter Egg link
             easterEggLink.click();
         } else if (imageSrc.includes('santa_item')) {
             // For Christmas, automatically click the Easter Egg link
